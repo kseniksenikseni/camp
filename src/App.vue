@@ -150,7 +150,7 @@ export default {
       ],
        blockTeam:[
            {
-        imgTeacher: "https://sun9-48.userapi.com/impg/9BwCly2q70iLI1BTOvWyEb1DnT7IptkM80ZLhQ/8058OvsX_Lg.jpg?size=350x350&quality=96&sign=5997104d5db5c968825dabf182f9640a&type=album",
+        imgTeacher: "https://sun9-43.userapi.com/impg/VZnBv-I-LO9je2UKMuLJ6OjepUP_GSkBELsjvQ/voojIlnyxlU.jpg?size=700x700&quality=96&sign=8c925f92690187404c968e087cefe09a&type=album",
         nameTeacher:'Никольская Марина Петровна',
         txtTeacher:'Начальник лагеря',
         id: 1
@@ -163,12 +163,12 @@ export default {
          },
          {
            imgTeacher: "https://sun9-79.userapi.com/impg/Cq_nM85s1M_UkCtRZcENNDDfJBEg_ajwVG47xQ/zGrS6fkl-_c.jpg?size=350x350&quality=96&sign=1fa84441fffee82372b97a62b2c4cc5c&type=album",
-           nameTeacher:'Козлова',
+           nameTeacher:'Козлова Марина Вениаминовна',
            txtTeacher:'Воспитатель',
            id: 3
          },
          {
-           imgTeacher: "https://sun9-20.userapi.com/impg/o5kH4G3V5XRhTeR1_N9e9cU2itTxDfzE-AD2cA/_-tdGaeXNy4.jpg?size=340x350&quality=96&sign=aeb6e4aea309dafb8459a4c9fab4464c&type=album",
+           imgTeacher: "https://sun9-7.userapi.com/impg/de0MAtKoGNsILDPdORj8u9jopAcfRlkZQfmh9g/fD8NA_u757Y.jpg?size=680x700&quality=96&sign=0b617fbd24ae11952f876494fed46228&type=album",
            nameTeacher:'Гришина Ольга Александровна',
           txtTeacher:'Воспитатель',
            id: 4
@@ -206,7 +206,7 @@ export default {
       ],
       blockTeam1:[
         {
-          imgTeacher: "https://sun9-48.userapi.com/impg/9BwCly2q70iLI1BTOvWyEb1DnT7IptkM80ZLhQ/8058OvsX_Lg.jpg?size=350x350&quality=96&sign=5997104d5db5c968825dabf182f9640a&type=album",
+          imgTeacher: "https://sun9-43.userapi.com/impg/VZnBv-I-LO9je2UKMuLJ6OjepUP_GSkBELsjvQ/voojIlnyxlU.jpg?size=700x700&quality=96&sign=8c925f92690187404c968e087cefe09a&type=album",
           nameTeacher:'Никольская Марина Петровна',
           txtTeacher:'Начальник лагеря',
           id: 1
@@ -224,7 +224,7 @@ export default {
           id: 3
         },
         {
-          imgTeacher: "https://sun9-20.userapi.com/impg/o5kH4G3V5XRhTeR1_N9e9cU2itTxDfzE-AD2cA/_-tdGaeXNy4.jpg?size=340x350&quality=96&sign=aeb6e4aea309dafb8459a4c9fab4464c&type=album",
+          imgTeacher: "https://sun9-7.userapi.com/impg/de0MAtKoGNsILDPdORj8u9jopAcfRlkZQfmh9g/fD8NA_u757Y.jpg?size=680x700&quality=96&sign=0b617fbd24ae11952f876494fed46228&type=album",
           nameTeacher:'Гришина Ольга Александровна',
           txtTeacher:'Воспитатель',
           id: 4
