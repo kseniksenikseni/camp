@@ -174,31 +174,31 @@ export default {
            id: 4
          },
          {
-           imgTeacher: "https://sun59-2.userapi.com/impg/3MpJdkQgmedjIjm9NfNPudDaHmv1YNP4WVSdhQ/KN74igtpnDY.jpg?size=350x350&quality=96&sign=e63721393ce3c22300f52a73fdb8f1a2&type=album",
+           imgTeacher: "https://sun9-17.userapi.com/impg/TyIOu2VoZ8honGIv6lD-z4GC7qSbXo_PRKdeZg/OQeMFkgCF9Q.jpg?size=1280x1280&quality=96&sign=b9241752b0547709ddc5dca4b00a0bfe&type=album",
            nameTeacher:'Гусева Виктория Викторовна',
            txtTeacher:'Воспитатель',
            id: 5
          },
          {
-           imgTeacher: "https://sun9-73.userapi.com/impg/QRX1hOi0i2yJo6JU7i9HyAtnx_BJ387bXQcTlA/Vx8VNo6x-RE.jpg?size=350x350&quality=96&sign=e1876433118f4c66be339540aa00eb6c&type=album",
+           imgTeacher: "https://sun59-1.userapi.com/impg/tM8oXTZDDNrJqiyf2opYmFgnYH5KEd_2aS7BUw/PtZfyuKwX64.jpg?size=1280x1280&quality=96&sign=7eb881aa651dff2c6ea39ef1a3e2d6c9&type=album",
            nameTeacher:'Семенова Наталья Вячеславовна',
            txtTeacher:'Воспитатель',
            id: 6
          },
          {
-           imgTeacher: "https://sun59-1.userapi.com/impg/zRmETO5i48X3RWiuxy1lt93552nF-OsLFlKw2A/31-zjTg040Q.jpg?size=350x350&quality=96&sign=7d1c467a5ade358f962c1ec5e28a92f1&type=album",
+           imgTeacher: "https://sun59-1.userapi.com/impg/Z0PbYADvD2xm28tKaRML95K1pCDiGhbmT1xM6Q/C6g5GMT7CDo.jpg?size=1280x1280&quality=96&sign=769e5e7872deb57fffa5df8d46bdc824&type=album",
            nameTeacher:'Кузнецова Светлана Владимировна',
            txtTeacher:'Воспитатель',
            id:7
          },
          {
-           imgTeacher: "https://sun59-1.userapi.com/impg/4A0l5YCvjCpkUvDgPxSoaq7xzrqu1rAdRWqGyQ/CNEg27UimZw.jpg?size=350x350&quality=96&sign=32c739dea3a8d23df2423fec6e877166&type=album",
+           imgTeacher: "https://sun9-7.userapi.com/impg/6pb2y9SAHnJm7dvtAJMza2Ol1BgEoPVm85sUNQ/Sy5eQnZmIZo.jpg?size=340x350&quality=96&sign=16f92f9a557e04c998ed3b7ac365fddd&type=album",
            nameTeacher:'Иголкин Сергей Владимирович',
            txtTeacher:'Воспитатель',
            id: 8
          },
          {
-           imgTeacher: "https://sun9-24.userapi.com/impg/17kWPPYDCkL8bW7UO_yiAl6Gns85KfkOqeE0oA/4VtWzRc_7k8.jpg?size=350x350&quality=96&sign=1af16aafb03295351118dcd57c9bc32b&type=album",
+           imgTeacher: "https://sun9-54.userapi.com/impg/qiGnqueY72ADsoYbw0z64JOsSGFi8o-VWMPbvA/VqVlsVHSjVY.jpg?size=1280x1280&quality=96&sign=cedaad05ff5ed46194ffcc7e61519b66&type=album",
            nameTeacher:'Ишимбаев Денис Кимальевич',
            txtTeacher:'Воспитатель',
            id:9
@@ -229,62 +229,7 @@ export default {
           txtTeacher:'Воспитатель',
           id: 4
         },
-        ],
-      blockImages:[
-        {
-        imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 1
-        },
-        {
-          imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 2
-        },
-        {
-          imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 3
-        },
-        {
-          imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 4
-        },
-        {
-          imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 5
-        },
-        {
-          imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 6
-        },
-        {
-          imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 7
-        },
-        {
-          imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 8
-        },
-        {
-          imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 9
-        },
-        {
-          imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 10
-        },
-        {
-          imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 11
-        },
-        {
-          imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 12
-        },
-        {
-          imgImages:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          id: 13
-        }
-
-      ]
+        ]
     }
   },
 methods:{

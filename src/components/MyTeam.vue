@@ -57,6 +57,7 @@ export default {
 }
 .my-teacher{
   margin-top: 50px;
+
 }
 .news{
   font-size: 30px;

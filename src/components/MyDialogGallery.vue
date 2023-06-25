@@ -38,8 +38,8 @@ export default {
   border-radius: 20px;
   box-shadow: 0 0 21px -7px lightslategray;
   border: 2px transparent solid;
-  width: 800px;
-  height: 650px;
+  width: 1200px;
+  height: 670px;
   display: flex;
   flex-direction: column;
   padding: 30px;
