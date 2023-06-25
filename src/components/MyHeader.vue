@@ -6,7 +6,7 @@
       <img class="log" src="../assets/Emblema_shkoly.png" alt="logo">
       <div class="school">
       <span class="skola">
-    Муниципальное бюджетное <br> общеобразовательное учреждение <br> “Школа№123”
+    Муниципальное бюджетное <br> общddddddddddddddgеобразовательное учреждение <br> “Школа№123”
   </span>
     </div>
     <div class="header2">
