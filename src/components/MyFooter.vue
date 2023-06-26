@@ -21,7 +21,7 @@
         </div>
         <div class="inf1 bb">
           <img class="pin" src="../assets/vk-white.png" alt="">
-          <span class="inf2">Вконтакте</span>
+<!--          <span class="inf2">Вконтакте</span>-->
         </div>
       </div>
       </div>
