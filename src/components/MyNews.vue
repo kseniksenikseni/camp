@@ -6,11 +6,11 @@
     <hr class="hr">
   <div class="box">
     <my-button @click="funcLeft" class="left">
-      <img src="../assets/Left.png" alt="" class="img-left">
+      <img src="../assets/Left.png" alt="" class="img">
     </my-button>
     <my-new class="my-new" v-for="new1 in arr" :new1="new1" :key="new1.id"/>
     <my-button @click="funcRight" class="right">
-      <img src="../assets/Right.png" alt="" class="img-right">
+      <img src="../assets/Right.png" alt="" class="img">
     </my-button>
 
   </div>
@@ -44,27 +44,33 @@ export default {
 <style scoped>
 .right, .left{
   background-color:  #1E3685;
-  margin-top: 200px;
+  margin-top: 300px;
 }
 .box{
   display: flex;
   justify-content: space-between;
+  margin-left: 0px;
+  margin-top: -10px;
 }
 .container{
   background-color:  #1E3685;
   width:81.9% ;
   margin-left: 202px;
   margin-top: 15px;
-  height: 500px;
+  height: 800px;
 }
 .my-new{
+  width: 1000px;
   margin-top: 20px;
-  margin-right: 13px;
+  margin-left: 20px;
+  background-color: white;
+  height: 610px;
 }
+
 .news{
   color: white;
-  font-size: 30px;
-  margin-left: 600px;
+  font-size: 32px;
+  margin-left: 610px;
 }
 .hr{
   margin: 20px 0;

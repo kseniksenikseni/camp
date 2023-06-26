@@ -10,7 +10,7 @@
       <my-authorization @find="authoUser"/>
     </my-dialog>
   </div>
-  <img class="schol" src="./assets/Groups.png" alt="">
+  <img class="schol" src="https://sun9-18.userapi.com/impg/vZgZgZiayIJSDbUuba--5SlF_5Ptx_ZUpQXdyg/GryLTgKFn6M.jpg?size=1280x377&quality=96&sign=5cb669bf14507ffbdc107f75c9c77b4a&type=album" alt="">
   <my-news :arr="blockNews1" @moveR="funcMoveR" @moveL="funcMoveL"/>
     <my-team  :arr="blockTeam1" @movesR="funcMoveRight" @movesL="funcMoveLeft"/>
     <my-gallery @change2="openF"/>
@@ -61,92 +61,107 @@ export default {
       border1: 0,
       border2: 3,
       blockNews:[
-        // {
-        //   imgNew:"https://sun9-42.userapi.com/impg/LxeZhk4o9x6SYlXhd1iUdgZlLUaqewN-tbs9Uw/16cPFgFYkfA.jpg?size=854x853&quality=96&sign=3a6cc0b37db4ceb114e9fb411ff8f0e2&type=album",
-        //   infNew:'6 июня воспитанники лагеря труда и отдыха "Тайм-аут."',
-        //   id: 2
-        // },
-        // {
-        //   imgNew:"https://sun9-42.userapi.com/impg/LxeZhk4o9x6SYlXhd1iUdgZlLUaqewN-tbs9Uw/16cPFgFYkfA.jpg?size=854x853&quality=96&sign=3a6cc0b37db4ceb114e9fb411ff8f0e2&type=album",
-        //   infNew:'6 июня воспитанники лагеря труда и отдыха "Тайм-аут."',
-        //   id: 2
-        // },
-        // {
-        //   imgNew:"https://sun9-42.userapi.com/impg/LxeZhk4o9x6SYlXhd1iUdgZlLUaqewN-tbs9Uw/16cPFgFYkfA.jpg?size=854x853&quality=96&sign=3a6cc0b37db4ceb114e9fb411ff8f0e2&type=album",
-        //   infNew:'6 июня воспитанники лагеря труда и отдыха "Тайм-аут."',
-        //   id: 2
-        // },
-        // {
-        //   imgNew:"https://sun9-42.userapi.com/impg/LxeZhk4o9x6SYlXhd1iUdgZlLUaqewN-tbs9Uw/16cPFgFYkfA.jpg?size=854x853&quality=96&sign=3a6cc0b37db4ceb114e9fb411ff8f0e2&type=album",
-        //   infNew:'6 июня воспитанники лагеря труда и отдыха "Тайм-аут."',
-        //   id: 2
-        // }, {
-        //   imgNew:"https://sun9-42.userapi.com/impg/LxeZhk4o9x6SYlXhd1iUdgZlLUaqewN-tbs9Uw/16cPFgFYkfA.jpg?size=854x853&quality=96&sign=3a6cc0b37db4ceb114e9fb411ff8f0e2&type=album",
-        //   infNew:'6 июня воспитанники лагеря труда и отдыха "Тайм-аут."',
-        //   id: 2
-        // },
-        // {
-        //   imgNew:"https://sun9-42.userapi.com/impg/LxeZhk4o9x6SYlXhd1iUdgZlLUaqewN-tbs9Uw/16cPFgFYkfA.jpg?size=854x853&quality=96&sign=3a6cc0b37db4ceb114e9fb411ff8f0e2&type=album",
-        //   infNew:'6 июня воспитанники лагеря труда и отдыха "Тайм-аут."',
-        //   id: 2
-        // },
-        // {
-        //   imgNew:"https://sun9-42.userapi.com/impg/LxeZhk4o9x6SYlXhd1iUdgZlLUaqewN-tbs9Uw/16cPFgFYkfA.jpg?size=854x853&quality=96&sign=3a6cc0b37db4ceb114e9fb411ff8f0e2&type=album",
-        //   infNew:'6 июня воспитанники лагеря труда и отдыха "Тайм-аут."',
-        //   id: 2
-        // },
-        // {
-        //   imgNew:"https://sun9-42.userapi.com/impg/LxeZhk4o9x6SYlXhd1iUdgZlLUaqewN-tbs9Uw/16cPFgFYkfA.jpg?size=854x853&quality=96&sign=3a6cc0b37db4ceb114e9fb411ff8f0e2&type=album",
-        //   infNew:'6 июня воспитанники лагеря труда и отдыха "Тайм-аут."',
-        //   id: 2
-        // }, {
-        //   imgNew:"https://sun9-42.userapi.com/impg/LxeZhk4o9x6SYlXhd1iUdgZlLUaqewN-tbs9Uw/16cPFgFYkfA.jpg?size=854x853&quality=96&sign=3a6cc0b37db4ceb114e9fb411ff8f0e2&type=album",
-        //   infNew:'6 июня воспитанники лагеря труда и отдыха "Тайм-аут."',
-        //   id: 2
-        // },
-        //
-
         {
-        imgNew:"https://sun59-1.userapi.com/impg/PiZAWDWn4mFF1xwXmfXvLaRJa-nIKY-9u82mlw/NxETEA4ivXY.jpg?size=960x960&quality=96&sign=2c98c70040e83f96f4f0b23e5137a033&type=album",
-        infNew:'7 июня ребята из лагеря "Тайм-аут"',
+        imgNew:"https://sun59-2.userapi.com/impg/-ItZhDXTxSTLIOmYpODOQBKq05WM6KnPQ2BTTw/UCUVJbejkIw.jpg?size=1280x960&quality=96&sign=4eccc31fea95d92ac19fb8f9577dfd1c&type=album",
+        infNew:'22 июня 1941 года – одна из самых печальных дат в истории России – День памяти и скорби – день начала Великой Отечественной войны.\n' +
+            'Участники школьного отряда всероссийского движения "Юнармия" провели митинг, посвященный Дню памяти и скорби.\n' +
+            'Участники лагеря "Тайм-аут" почтили память павших минутой молчания и возложили цветы у стелы «Вам, отстоявшим весну на Земле – вечная слава», установленной в память боевого и трудового подвига выпускников и учителей военных лет.',
         id: 1
       },
         {
-          imgNew:"https://sun9-42.userapi.com/impg/LxeZhk4o9x6SYlXhd1iUdgZlLUaqewN-tbs9Uw/16cPFgFYkfA.jpg?size=854x853&quality=96&sign=3a6cc0b37db4ceb114e9fb411ff8f0e2&type=album",
-          infNew:'6 июня воспитанники лагеря труда и отдыха "Тайм-аут."',
+          imgNew:"https://sun59-1.userapi.com/impg/nP7aNkJTIiqZeW8cqcOKCXAVvbke_CRja5T1CA/KMZmCoGZcBg.jpg?size=1280x960&quality=96&sign=eea69ccc192442901781fb8997bf8124&type=album",
+          infNew:'21 июня - день, посвященный Дню памяти и скорби. Ребята почтили память солдат, погибших защищая нашу Родину в годы Великой Отечественной войны.\n' +
+              '23 июня отмечается Международный Олимпийский день, и сегодня в рамках трека "Орлёнок-спортсмен" орлята говорили об олимпийском движении, олимпийских видах спорта, встретились с бронзовым призёром Олимпийских игр 1980 года, учителем физической культуры Надеждой Николаевной Филипповой.\n' +
+              'рассказавшая ребятам о своей спортивной карьере. Сегодня же были подведены итоги летнего фестиваля ГТО лагеря. Призёры были награждены грамотами и сладкими призами.',
           id: 2
         },
         {
-          imgNew:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          infNew:'В День русского языка участники патриотического трека лагеря "Тайм-аут."',
+          imgNew:"https://sun9-48.userapi.com/impg/Dit_19Egxx8VL4Epw1wzARIq3vJ2DfEn8DEnOA/AE_7zg3yvoI.jpg?size=1280x958&quality=96&sign=fc397705c9cfddeec7d82fa7de2cbf6f&type=album",
+          infNew:'Завершилась работа пришкольных лагерей. 21июня делегация будущих юнармейцев побывала в Центре военно-патриотического воспитания г. Н. Новгорода на беседе, посвящённой Дню памяти и скорби - Дню начала Великой Отечественной войны. Далее все участники патриотического трека вместе отправились в Технический музей.\n' +
+              'При подведении итогов ребята нарисовали, что им больше всего понравилось в лагере.',
           id: 3
         },
-        {
-          imgNew:"https://sun9-59.userapi.com/impg/RbpsKlTRjncCdurdh9qVn61jljBITg825cqPgw/JX0GMpYVSH0.jpg?size=960x960&quality=96&sign=ce8c173c4b9a2c8d2ad878fa280524f1&type=album",
-          infNew:'6 июня - Пушкинский день России и День русского языка.',
-          id: 4
-        }
+        // {
+        //   imgNew: "",
+        //   infNew: "20 июня ребята из лагеря \"Тайм-Аут. Время Активных\" проходили два трека: \"Орлёнок- спортсмен\" и \"Орлёнок-доброволец\". Ребята-орлята завершили комплекс оздоровительно-обучающих занятий в бассейне и поучаствовали в малых олимпийских играх, посвящённых Международному олимпийском дню, который отмечается 23 июня. А еще орлята увлечённо писали письма солдатам, которые участвуют в Специальной военной операции и ждут тёплые слова поддержки из родных мест. Своих не бросаем!",
+        //   id: 4
+        // },
+        // {
+        //   imgNew: "",
+        //   infNew: "",
+        //   id: 1
+        // },
+        // {
+        //   imgNew: "",
+        //   infNew: "",
+        //   id: 1
+        // },
+        // {
+        //   imgNew: "",
+        //   infNew: "",
+        //   id: 1
+        // },
+        // {
+        //   imgNew: "",
+        //   infNew: "",
+        //   id: 1
+        // },
+        // {
+        //   imgNew: "",
+        //   infNew: "",
+        //   id: 1
+        // },
+        // {
+        //   imgNew: "",
+        //   infNew: "",
+        //   id: 1
+        // },
+        // {
+        //   imgNew: "",
+        //   infNew: "",
+        //   id: 1
+        // },
+        // {
+        //   imgNew: "",
+        //   infNew: "",
+        //   id: 1
+        // },
+        // {
+        //   imgNew: "",
+        //   infNew: "",
+        //   id: 1
+        // },
+        // {
+        //   imgNew: "",
+        //   infNew: "",
+        //   id: 1
+        // },
+        // {
+        //   imgNew: "",
+        //   infNew: "",
+        //   id: 1
+        // }
       ],
       blockNews1: [{
-        imgNew:"https://sun59-1.userapi.com/impg/PiZAWDWn4mFF1xwXmfXvLaRJa-nIKY-9u82mlw/NxETEA4ivXY.jpg?size=960x960&quality=96&sign=2c98c70040e83f96f4f0b23e5137a033&type=album",
-        infNew:'7 июня ребята из лагеря "Тайм-аут"',
+        imgNew:"https://sun59-2.userapi.com/impg/-ItZhDXTxSTLIOmYpODOQBKq05WM6KnPQ2BTTw/UCUVJbejkIw.jpg?size=1280x960&quality=96&sign=4eccc31fea95d92ac19fb8f9577dfd1c&type=album",
+        infNew:'22 июня 1941 года – одна из самых печальных дат в истории России – День памяти и скорби – день начала Великой Отечественной войны.\n' +
+            'Участники школьного отряда всероссийского движения "Юнармия" провели митинг, посвященный Дню памяти и скорби.\n' +
+            'Участники лагеря "Тайм-аут" почтили память павших минутой молчания и возложили цветы у стелы «Вам, отстоявшим весну на Земле – вечная слава», установленной в память боевого и трудового подвига выпускников и учителей военных лет.',
         id: 1
       },
         {
-          imgNew:"https://sun9-42.userapi.com/impg/LxeZhk4o9x6SYlXhd1iUdgZlLUaqewN-tbs9Uw/16cPFgFYkfA.jpg?size=854x853&quality=96&sign=3a6cc0b37db4ceb114e9fb411ff8f0e2&type=album",
-          infNew:'6 июня воспитанники лагеря труда и отдыха "Тайм-аут."',
+          imgNew:"https://sun59-1.userapi.com/impg/nP7aNkJTIiqZeW8cqcOKCXAVvbke_CRja5T1CA/KMZmCoGZcBg.jpg?size=1280x960&quality=96&sign=eea69ccc192442901781fb8997bf8124&type=album",
+          infNew:'21 июня - день, посвященный Дню памяти и скорби. Ребята почтили память солдат, погибших защищая нашу Родину в годы Великой Отечественной войны.\n' +
+              '23 июня отмечается Международный Олимпийский день, и сегодня в рамках трека "Орлёнок-спортсмен" орлята говорили об олимпийском движении, олимпийских видах спорта, встретились с бронзовым призёром Олимпийских игр 1980 года, учителем физической культуры Надеждой Николаевной Филипповой,.\n' +
+              'рассказавшая ребятам о своей спортивной карьере. Сегодня же были подведены итоги летнего фестиваля ГТО лагеря. Призёры были награждены грамотами и сладкими призами.',
           id: 2
         },
-        {
-          imgNew:"https://sun9-70.userapi.com/impg/rBeIDiTryxGi5jt14loT-HqsTpnLqdsF4Tt1Ow/COjujNnOjb8.jpg?size=485x485&quality=96&sign=3939d0dc50ee5f1f0d755ae83098716a&type=album",
-          infNew:'В День русского языка участники патриотического трека лагеря "Тайм-аут."',
-          id: 3
-        },
-        {
-          imgNew:"https://sun9-59.userapi.com/impg/RbpsKlTRjncCdurdh9qVn61jljBITg825cqPgw/JX0GMpYVSH0.jpg?size=960x960&quality=96&sign=ce8c173c4b9a2c8d2ad878fa280524f1&type=album",
-          infNew:'6 июня - Пушкинский день России и День русского языка.',
-          id: 4
-        }
+        // {
+        //   imgNew:"https://sun9-48.userapi.com/impg/Dit_19Egxx8VL4Epw1wzARIq3vJ2DfEn8DEnOA/AE_7zg3yvoI.jpg?size=1280x958&quality=96&sign=fc397705c9cfddeec7d82fa7de2cbf6f&type=album",
+        //   infNew:'Завершилась работа пришкольных лагерей. 21июня делегация будущих юнармейцев побывала в Центре военно-патриотического воспитания г. Н. Новгорода на беседе, посвящённой Дню памяти и скорби - Дню начала Великой Отечественной войны. Далее все участники патриотического трека вместе отправились в Технический музей.\n' +
+        //       'При подведении итогов ребята нарисовали, что им больше всего понравилось в лагере.',
+        //   id: 3
+        // },
       ],
        blockTeam:[
            {
@@ -285,12 +300,12 @@ methods:{
    this.blockNews.push(this.blockNews[0])
     this.blockNews.splice(0,1)
     console.log(this.blockNews)
-    this.blockNews1 = this.blockNews.slice(0,4)
+    this.blockNews1 = this.blockNews.slice(0,2)
   },
   funcMoveL(){
-    this.blockNews.unshift(this.blockNews[3])
-    this.blockNews.splice(5,1)
-    this.blockNews1 = this.blockNews.slice(0,4)
+    this.blockNews.unshift(this.blockNews[2])
+    this.blockNews.splice(3,1)
+    this.blockNews1 = this.blockNews.slice(0,2)
   },
   funcMoveRight(){
     this.blockTeam.push(this.blockTeam[0])

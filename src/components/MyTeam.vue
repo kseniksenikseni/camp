@@ -3,6 +3,7 @@
     <div class="team">
       <span class="news">Наша команда</span>
     </div>
+    <hr class="hr">
     <div class="box">
       <my-button @click="funcLeft" class="left">
         <img src="../assets/fi-sr-caret-left.png" alt="" class="img-left">
@@ -55,15 +56,23 @@ export default {
   margin-left: 202px;
   margin-top: 20px;
 }
+.hr{
+  margin: 20px 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 1px solid lightgrey;
+  //border-top: 1px solid rgba(9, 9, 9, 0.99);
+}
 .my-teacher{
   margin-top: 50px;
 
 }
 .news{
-  font-size: 30px;
-  margin-left: 600px;
+  font-size: 32px;
+  margin-left: 570px;
 }
 .team{
-  padding-top: 50px;
+  padding-top: 30px;
 }
 </style>
