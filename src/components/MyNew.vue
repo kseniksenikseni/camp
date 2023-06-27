@@ -24,11 +24,11 @@ export default {
   height: 57%;
   margin-left: 20px;
   margin-top: 20px;
+  border-radius: 5px;
 }
 .txt{
   margin-top: 15px;
-font-size: 17px;
-  text-indent: 1.5px;
+  font-size: 17px;
 }
 .text{
   width: 500px;

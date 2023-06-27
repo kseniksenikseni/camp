@@ -1,6 +1,6 @@
 <template>
   <div class="block-teacher">
-    <img class="img" :src="team1.imgTeacher" alt=""> <br>
+    <img class="img" :src="team1.imgTeacher" alt=""> <br>  <br>
     <span class="name">{{team1.nameTeacher}}</span> <br>
     <span class="txt">{{team1.txtTeacher}}</span>
   </div>
@@ -18,9 +18,21 @@ export default {
 </script>
 
 <style scoped>
-.img{
-  width: 250px;
-  height: 250px;
+.block-teacher{
+ width:700px;
 }
-
+.img{
+  width: 310px;
+  height: 310px;
+}
+.name{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 11px;
+}
+.txt{
+  margin-left: 90px;
+  font-size: 18px;
+  margin-top: 10px;
+}
 </style>

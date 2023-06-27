@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="team">
-      <span class="news">Наша команда</span>
+      <span class="news">Команда педагогов</span>
     </div>
     <hr class="hr">
     <div class="box">
@@ -44,17 +44,21 @@ export default {
 <style scoped>
 .right, .left{
   background-color: white;
-  margin-top: 200px;
+  margin-top: 150px;
 }
+
 .box{
   display: flex;
   justify-content: space-between;
+  margin-left: 0px;
+  margin-top: -30px;
 }
 .container{
   background-color: white;
   width:81.9% ;
   margin-left: 202px;
   margin-top: 20px;
+  height: 550px;
 }
 .hr{
   margin: 20px 0;
@@ -66,11 +70,11 @@ export default {
 }
 .my-teacher{
   margin-top: 50px;
-
+  margin-left: 30px;
 }
 .news{
   font-size: 32px;
-  margin-left: 570px;
+  margin-left: 540px;
 }
 .team{
   padding-top: 30px;

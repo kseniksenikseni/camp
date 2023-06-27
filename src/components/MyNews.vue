@@ -61,10 +61,11 @@ export default {
 }
 .my-new{
   width: 1000px;
-  margin-top: 20px;
+  margin-top:30px;
   margin-left: 20px;
   background-color: white;
-  height: 610px;
+  height: 615px;
+  border-radius: 5px;
 }
 
 .news{
@@ -83,72 +84,3 @@ export default {
   padding-top: 30px;
 }
 </style>
-
-
-<!--let arr = ['./img/1.jpg','./img/2.jpg','./img/3.jpg','./img/4.jpg','./img/5.jpg','./img/6.jpg','./img/7.jpg',-->
-<!--'./img/8.jpg','./img/9.jpg','./img/10.jpg','./img/11.jpg','./img/12.jpg']-->
-
-<!--let btn1 = document.querySelector('.button1')-->
-<!--let btn2 = document.querySelector('.button2')-->
-<!--let mas_img = document.querySelectorAll('.img_foto')-->
-
-<!--btn2.addEventListener('click', (e) =>{-->
-<!--arr.push(arr[0])-->
-<!--arr.shift(arr[0])-->
-<!--mas_img[0].src = arr[0]-->
-<!--mas_img[1].src = arr[1]-->
-<!--mas_img[2].src = arr[2]-->
-<!--})-->
-<!--btn1.addEventListener('click', (e) =>{-->
-<!--arr.unshift(arr[arr.length-1])-->
-<!--arr.pop(arr[arr.length-1])-->
-<!--mas_img[0].src = arr[0]-->
-<!--mas_img[1].src = arr[1]-->
-<!--mas_img[2].src = arr[2]-->
-<!--})-->
-
-<!--let cont = document.querySelector('.container2')-->
-<!--let img_big = document.querySelector('.img_big')-->
-<!--let click_save = arr[0]-->
-
-<!--cont.addEventListener('mouseover', (e) =>{-->
-
-<!--if(e.target.tagName === "IMG"){-->
-<!--img_big.src = e.target.src-->
-<!--}-->
-<!--})-->
-
-<!--cont.addEventListener('click', (e) =>{-->
-
-<!--if(e.target.tagName === "IMG"){-->
-<!--img_big.src = e.target.src-->
-<!--click_save = e.target.src-->
-<!--}-->
-<!--})-->
-
-<!--cont.addEventListener('mouseout', (e) =>{-->
-<!--img_big.src = click_save-->
-
-<!--})-->
-
-<!--cont.addEventListener('mousedown', (e) =>{-->
-
-<!--if(arr.length>3){-->
-
-<!--if(e.button === 2){-->
-<!--let c = 0-->
-<!--let del_img = e.target.getAttribute("src")-->
-<!--for(let i=0; i<arr.length; i++){-->
-<!--if(arr[i] === del_img){-->
-<!--c = i-->
-<!--break-->
-<!--}-->
-<!--}-->
-<!--arr.splice(c, 1)-->
-<!--mas_img[0].src = arr[0]-->
-<!--mas_img[1].src = arr[1]-->
-<!--mas_img[2].src = arr[2]-->
-<!--console.log(arr)-->
-<!--}}-->
-
-<!--})-->
