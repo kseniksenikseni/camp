@@ -413,7 +413,7 @@ methods:{
     }
 
     if (!userAuto) {
-      alert("Пользователь найден");
+      alert("Пользователь не найден");
     }
     this.openAuthorization = !this.openAuthorization
   },
