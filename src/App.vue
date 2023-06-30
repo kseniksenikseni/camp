@@ -17,9 +17,9 @@
     <my-dialog-gallery v-model:show="openFoto">
       <my-img />
     </my-dialog-gallery>
-    <my-feedbacks/>
-    <my-form class="myform" @create="addFeed" :statusUser="statusUser"/>
-    <my-spisok :forms="forms"/>
+<!--    <my-feedbacks/>-->
+<!--    <my-form class="myform" @create="addFeed" :statusUser="statusUser"/>-->
+<!--    <my-spisok :forms="forms"/>-->
 
     <my-footer/>
   </div>
@@ -37,14 +37,14 @@ import MyGallery from "@/components/MyGallery.vue";
 import MyImg from "@/components/MyImg.vue";
 import MyFooter from "@/components/MyFooter.vue";
 import MyDialogGallery from "@/components/MyDialogGallery.vue";
-import MyForm from "@/components/MyForm.vue";
-import MyFeedbacks from "@/components/MyFeedbacks.vue";
-import MySpisok from "@/components/MySpisok.vue";
+// import MyForm from "@/components/MyForm.vue";
+// import MyFeedbacks from "@/components/MyFeedbacks.vue";
+// import MySpisok from "@/components/MySpisok.vue";
 export default {
   components:{
-    MySpisok,
-    MyFeedbacks,
-    MyForm,
+    // MySpisok,
+    // MyFeedbacks,
+    // MyForm,
     MyDialogGallery,
     MyFooter,
     MyImg,
@@ -61,8 +61,8 @@ export default {
       openRegistration: false,
       openAuthorization: false,
       openFoto: false,
-      statusUser: false,
-      forms: [],
+      // statusUser: false,
+      // forms: [],
       objectAuthoUser:{},
       border1: 0,
       border2: 3,
@@ -416,9 +416,8 @@ methods:{
         break;
       }
     }
-
     if (!userAuto) {
-      alert("Пользователь  найден");
+      alert("Пользователь не найден");
     }
     this.openAuthorization = !this.openAuthorization
   },
@@ -442,11 +441,10 @@ methods:{
     this.blockTeam.unshift(this.blockTeam[8])
     this.blockTeam.splice(10,1)
     this.blockTeam1 = this.blockTeam.slice(0,3)
-  },
-  addFeed(form){
-    this.forms.push(form)
-    console.log(form)
   }
+  // addFeed(form){
+  //   this.forms.push(form)
+  // }
 
 }
 }
