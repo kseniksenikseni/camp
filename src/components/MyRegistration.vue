@@ -55,10 +55,7 @@ export default {
   margin-top: 20px;
 
 }
-.title{
-  font-size: 33px;
-  //font-family: 'Roboto';
-}
+
 .blocks-input{
   display: flex;
   justify-content: space-between;

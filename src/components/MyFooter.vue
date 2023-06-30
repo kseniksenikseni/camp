@@ -1,7 +1,7 @@
 <template>
 <footer>
   <span class="school">
-     Муниципальное бюджетное <br> общеобразовательное учреждение  “Школа№123”
+     Муниципальное бюджетное <br> общеобразовательное учреждение <br>  “Школа №123”
   </span>
   <div class="contacts">
     <div class="contct c">
@@ -37,16 +37,18 @@
 footer{
   background-color: #1E3685;
   width: 81.8%;
-  height: 120px;
+  height: 140px;
   margin-left: 202px;
   display: flex;
  margin-bottom: 15px;
   justify-content: space-between;
-  margin-top: 15px;
 }
 .inf2{
   margin-left: 10px;
   color: white;
+}
+.inf2{
+  font-size: 15px;
 }
 .a{
   width: 4.5%;
@@ -59,7 +61,7 @@ footer{
   text-decoration:underline;
 }
 .school{
-  font-size: 23px;
+  font-size: 22px;
   color: white;
   margin-left: 100px;
   margin-top:30px;
@@ -71,7 +73,7 @@ footer{
   display: flex;
   justify-content: space-between;
   margin-right: 100px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .c{
   margin-right: 20px;

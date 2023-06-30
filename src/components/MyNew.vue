@@ -28,7 +28,8 @@ export default {
 }
 .txt{
   margin-top: 15px;
-  font-size: 17px;
+  font-size: 15px;
+  line-height: 23px;
 }
 .text{
   width: 500px;

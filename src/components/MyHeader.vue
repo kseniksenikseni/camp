@@ -77,8 +77,8 @@ export default {
 
 }
 .skola{
-  font-size: 24px;
-
+  font-size: 23px;
+  font-family: Arial;
 }
 .reg{
   background-color:  #1E3685;
@@ -97,8 +97,9 @@ export default {
   height: 30px;
 }
 span{
-  font-size: 19px;
+  font-size: 18px;
   //font-family:'Roboto';
+  font-family: Arial;
   line-height: 1.5;
 }
 .header3{
@@ -110,6 +111,7 @@ span{
 }
 .inf2{
   margin-left: 5px;
+  font-family: Arial;
 }
 
 .reg{

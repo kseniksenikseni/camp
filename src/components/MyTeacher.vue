@@ -26,13 +26,13 @@ export default {
   height: 310px;
 }
 .name{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   margin-left: 11px;
 }
 .txt{
   margin-left: 90px;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 10px;
 }
 </style>

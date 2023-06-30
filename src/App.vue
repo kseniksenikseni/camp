@@ -18,9 +18,10 @@
       <my-img />
     </my-dialog-gallery>
     <my-feedbacks/>
-    <my-form class="myform" @create="addFeed"/>
-    <my-footer/>
+    <my-form class="myform" @create="addFeed" :statusUser="statusUser"/>
+    <my-spisok :forms="forms"/>
 
+    <my-footer/>
   </div>
   </body>
 </template>
@@ -38,8 +39,10 @@ import MyFooter from "@/components/MyFooter.vue";
 import MyDialogGallery from "@/components/MyDialogGallery.vue";
 import MyForm from "@/components/MyForm.vue";
 import MyFeedbacks from "@/components/MyFeedbacks.vue";
+import MySpisok from "@/components/MySpisok.vue";
 export default {
   components:{
+    MySpisok,
     MyFeedbacks,
     MyForm,
     MyDialogGallery,
@@ -58,6 +61,8 @@ export default {
       openRegistration: false,
       openAuthorization: false,
       openFoto: false,
+      statusUser: false,
+      forms: [],
       objectAuthoUser:{},
       border1: 0,
       border2: 3,
@@ -440,6 +445,7 @@ methods:{
   },
   addFeed(form){
     this.forms.push(form)
+    console.log(form)
   }
 
 }
@@ -453,6 +459,7 @@ body{
   //background-repeat: repeat;
   //background-attachment: fixed;
   background-color: #EFEFEF;
+  font-family: Arial;
 }
 .container{
   width: 1600px;
