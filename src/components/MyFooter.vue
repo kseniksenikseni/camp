@@ -39,7 +39,7 @@
 .foot{
   background-color: #1E3685;
   width: 81.9%;
-  height: 120px;
+  height: 119px;
   margin-left: 202px;
   display: flex;
  margin-bottom: 15px;
