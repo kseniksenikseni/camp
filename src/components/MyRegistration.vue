@@ -65,6 +65,9 @@ input{
   width: 350px;
   height: 30px;
 }
+.title{
+  font-size: 32px;
+}
 label{
   font-size: 18px;
   //font-family: 'Roboto';

@@ -56,7 +56,7 @@ label{
   //font-weight: regular;
 }
 .title{
-  font-size: 33px;
+  font-size: 32px;
   //font-family: 'Roboto';
 }
 
