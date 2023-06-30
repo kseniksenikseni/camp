@@ -53,7 +53,7 @@ export default{
   border-top: 1px solid #435583;
 }
 .btn{
-  margin-left: 540px;
+  margin-left: 541px;
   width: 220px;
   height: 45px;
   border-radius: 5px;
