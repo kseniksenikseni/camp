@@ -54,7 +54,7 @@ export default{
 }
 .btn{
   margin-left: 541px;
-  width: 220px;
+  width: 219px;
   height: 45px;
   border-radius: 5px;
   margin-top: 50px;
