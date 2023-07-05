@@ -57,7 +57,7 @@ export default {
   width:81.9% ;
   margin-left: 202px;
   margin-top: 15px;
-  height: 800px;
+  height: 801px;
 }
 .my-new{
   width: 1000px;
